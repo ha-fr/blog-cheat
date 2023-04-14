@@ -1,0 +1,18 @@
+<script>
+  function httpGet() {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open(
+      "GET",
+      "https://tduw532wv0.execute-api.us-east-1.amazonaws.com/prod/blog/getBlogpost",
+      false
+    ); // false for synchronous request
+    xmlHttp.send(null);
+    return xmlHttp.responseText;
+  };
+
+  var c = httpGet();
+  console.log("c");
+  console.log("b");
+  //   console.log(c);
+</script>
+<div>Hello</div>

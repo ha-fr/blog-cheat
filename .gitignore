@@ -1,0 +1,5 @@
+.env
+cdk/.env
+node_modules
+cdk/node_modules
+cdk/cdk.out
